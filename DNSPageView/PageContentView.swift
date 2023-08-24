@@ -109,7 +109,7 @@ public class PageContentView: UIView {
 
 
 extension PageContentView {
-    public func configure(childViewControllers: [UIViewController]? = nil, style: PageStyle? = nil, currentIndex: Int? = nil) {
+    internal func configure(childViewControllers: [UIViewController]? = nil, style: PageStyle? = nil, currentIndex: Int? = nil) {
         if let childViewControllers = childViewControllers {
             self.childViewControllers = childViewControllers
         }

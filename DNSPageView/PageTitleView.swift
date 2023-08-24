@@ -237,7 +237,7 @@ public class PageTitleView: UIView {
 
 // MARK: - 构建 UI
 extension PageTitleView {
-    internal func configure(titles: [String]? = nil, style: PageStyle? = nil, currentIndex: Int? = nil) {
+    public func configure(titles: [String]? = nil, style: PageStyle? = nil, currentIndex: Int? = nil) {
         if let titles = titles {
             self.titles = titles
         }
